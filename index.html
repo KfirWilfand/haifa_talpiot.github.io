@@ -637,7 +637,7 @@
           <div class="tip-label">💡 כדאי לדעת</div>
           <p>פתוח 24/7 | חינם לחלוטין | כדאי להביא מצלמה או לוודא שהטלפון טעון!</p>
         </div>
-        <a href="https://www.google.com/maps/search/?api=1&query=Louis+Promenade+Yefe+Nof+Haifa" target="_blank" class="map-btn">
+        <a href="https://www.google.com/maps/search/?api=1&query=Yefe+Nof+89+Haifa" target="_blank" class="map-btn">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
           פתח במפות
         </a>
@@ -952,17 +952,17 @@
 <script>
 /* ── MAP ── */
 const stops = [
-  { n:1, name:'ברדא',           lat:32.8188, lng:34.9980, time:'09:00' },
-  { n:2, name:'כרמלית',         lat:32.8158, lng:34.9985, time:'10:00' },
-  { n:3, name:'טיילת לואי',     lat:32.8100, lng:35.0027, time:'10:20' },
-  { n:4, name:'מדרגות גדרה',    lat:32.8087, lng:35.0033, time:'10:50' },
-  { n:5, name:'שוק תלפיות',     lat:32.8136, lng:35.0076, time:'11:35' },
-  { n:6, name:'גג 21',          lat:32.8143, lng:35.0064, time:'15:00', last:true },
+  { n:1, name:'ברדא',           lat:32.8175, lng:35.0026, time:'09:00' },
+  { n:2, name:'כרמלית',         lat:32.8163, lng:35.0020, time:'10:00' },
+  { n:3, name:'טיילת לואי',     lat:32.8132, lng:34.9829, time:'10:20' },
+  { n:4, name:'מדרגות גדרה',    lat:32.8054, lng:34.9894, time:'10:50' },
+  { n:5, name:'שוק תלפיות',     lat:32.8078, lng:35.0017, time:'11:35' },
+  { n:6, name:'גג 21',          lat:32.8086, lng:35.0023, time:'15:00', last:true },
 ];
 
 try {
   const map = L.map('map', { zoomControl: true, attributionControl: true })
-               .setView([32.8125, 35.003], 14);
+               .setView([32.8100, 34.9960], 14);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
